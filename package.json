@@ -1,18 +1,34 @@
 {
     "name": "jera-theme",
-    "displayName": "jera-theme",
+    "displayName": "Jera Theme",
     "description": "Jera's color scheme for VScode.",
     "version": "0.0.1",
+    "publisher": "Jera",
+    "author": "Jera",
+    "homepage": "https://jera.com.br/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/riulsudario/jera-theme"
+    },
+    "bugs": {
+        "url": "https://github.com/riulsudario/jera-theme/issues"
+    },
     "engines": {
-        "vscode": "^1.53.0"
+        "vscode": "^1.40.0"
     },
     "categories": [
-        "Themes"
+        "Themes",
+        "Other"
+    ],
+    "keywords": [
+        "Themes",
+        "Jera",
+        "Other"
     ],
     "contributes": {
         "themes": [
             {
-                "label": "jera",
+                "label": "Jera",
                 "uiTheme": "vs-dark",
                 "path": "./themes/jera-color-theme.json"
             }
