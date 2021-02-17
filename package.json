@@ -5,6 +5,7 @@
     "version": "0.0.1",
     "publisher": "Jera",
     "author": "Jera",
+    "icon": "icon.png",
     "homepage": "https://jera.com.br/",
     "repository": {
         "type": "git",
